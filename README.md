@@ -77,16 +77,34 @@ Create a Conda environment for managing dependencies.
 1. **Create the Conda Environment**:
 
    ```bash
-   conda create -n game4every1_env python=3.11
+   conda create -n game-instructor-env python=3.11
    ```
 
 2. **Activate the Environment**:
 
    ```bash
-   conda activate game4every1_env
+   conda activate game-instructor-env
+   ```
+### 4. Install Dependencies
+
+1. **Ensure the Conda Environment is Activated**:
+
+   ```bash
+   conda activate game-instructor-env
    ```
 
-### 3. Configure Environment Variables
+2. **Install Dependencies**:
+- Installing pip
+Conda Environment: When you create a new Conda environment, pip is usually installed by default. However, if for some reason it's not available, you can easily install it with:
+
+   ```bash
+   conda install pip
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+![alt text](image.png)
+
+### 3. Configure Environment Variables: Replace placeholders with actual values.
 
 Create a `.env` file in the root directory to store your environment variables.
 
@@ -98,35 +116,47 @@ Add the following variables to the `.env` file:
 
 ```env
 # Database Configuration
+
+DATABASE_URL='postgresql://your_db_username:your_db_password@localhost:DB_PORT/DB_NAME'
 DB_USER=your_db_username
 DB_PASSWORD=your_db_password
 DB_NAME=game4every1_db
 DB_HOST=db
 DB_PORT=5432
+WEAVIATE_URL='http://localhost:8080' #weaviate config
+OPENAI_API_KEY='sk-proj-....' #your_openai_api_key
 
-# Weaviate Configuration
-WEAVIATE_URL=http://weaviate:8080
-
-# OpenAI API Key
-OPENAI_API_KEY=your_openai_api_key
 ```
+## 🗂️ Streamlit Configuration
 
-Replace placeholders with actual values.
+### Setting Up `.streamlit`
 
-### 4. Install Dependencies
-
-1. **Ensure the Conda Environment is Activated**:
-
-   ```bash
-   conda activate game4every1_env
-   ```
-
-2. **Install Dependencies**:
+1. **Create `.streamlit` Directory**:
 
    ```bash
-   pip install --upgrade pip
-   pip install -r requirements.txt
+   mkdir .streamlit
    ```
+
+2. **Add Secrets to `.streamlit/secrets.toml`**:
+
+   ```toml
+   [DB]
+   USER = "your_db_username"
+   PASSWORD = "your_db_password"
+   NAME = "game4every1_db"
+   HOST = "db"          # Correct hostname for PostgreSQL service
+   PORT = "5432"        # Default PostgreSQL port
+
+   [WEAVIATE]
+   URL = "http://weaviate:8080"  # Correct hostname for Weaviate service
+
+   [OPENAI]
+   API_KEY ='your_openai_api_key'
+   ```
+   
+**Replace placeholders with actual values.**
+
+
 
 ## 🔑 Database Configuration
 
@@ -146,44 +176,8 @@ With Docker-Compose, PostgreSQL service creates `game4every1_db` automatically.
    docker exec -it game4every1-db psql -U your_db_username -d game4every1_db
    ```
 
-### Running Locally
 
-1. **Install PostgreSQL**:
 
-   - [Download PostgreSQL](https://www.postgresql.org/download/).
-
-2. **Create the Database**:
-
-   ```bash
-   psql -U your_db_username -c "CREATE DATABASE game4every1_db;"
-   ```
-
-## 🗂️ Streamlit Configuration
-
-### Setting Up `.streamlit`
-
-1. **Create `.streamlit` Directory**:
-
-   ```bash
-   mkdir .streamlit
-   ```
-
-2. **Add Secrets to `.streamlit/secrets.toml`**:
-
-   ```toml
-   [DB]
-   USER = "your_db_username"
-   PASSWORD = "your_db_password"
-   NAME = "game4every1_db"
-   HOST = "db"
-   PORT = "5432"
-
-   [WEAVIATE]
-   URL = "http://weaviate:8080"
-
-   [OPENAI]
-   API_KEY = "your_openai_api_key"
-   ```
 
 ## 🏃 Running the Application
 
@@ -203,19 +197,6 @@ With Docker-Compose, PostgreSQL service creates `game4every1_db` automatically.
    docker-compose down
    ```
 
-### Running Locally (Without Docker)
-
-1. **Activate Environment**:
-
-   ```bash
-   conda activate game4every1_env
-   ```
-
-2. **Run Streamlit**:
-
-   ```bash
-   streamlit run app.py
-   ```
 
 ### Running with Docker (Without Compose)
 
@@ -232,10 +213,39 @@ With Docker-Compose, PostgreSQL service creates `game4every1_db` automatically.
    docker run -p 8501:8501 game4every1-app
    ```
 
+
+
+### Running Locally (Without Docker)
+
+1. **Install PostgreSQL**:
+
+   - [Download PostgreSQL](https://www.postgresql.org/download/).
+
+2. **Create the Database**:
+
+   ```bash
+   psql -U your_db_username -c "CREATE DATABASE game4every1_db;"
+   ```
+   ```bash
+   create tables
+   ```
+1. **Activate Environment**:
+
+   ```bash
+   conda activate game-instructor-env
+   ```
+
+2. **Run Streamlit**:
+
+   ```bash
+   streamlit run app.py
+   ```
 ## 📊 Ingesting Data
 
 1. **Ensure Weaviate is Running**.
-
+2.    ```bash
+      python define_schema.py
+         ```
 2. **Run Ingestion**:
 
    ```bash

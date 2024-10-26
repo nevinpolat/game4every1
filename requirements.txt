@@ -6,4 +6,3 @@ sqlalchemy==2.0.35                  # ORM for database interactions
 psycopg2-binary==2.9.9              # PostgreSQL adapter for Python
 openai==1.47.1                      # OpenAI API client
 plotly==5.24.1  # Add this line for Plotly
-python-dotenv==1.0.1  # Or the latest version

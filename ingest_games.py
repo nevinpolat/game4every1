@@ -7,7 +7,8 @@ from sentence_transformers import SentenceTransformer
 import numpy as np  # Import numpy to check for NaN values
 
 # Initialize Weaviate client
-client = weaviate.Client("http://localhost:8080")  # Adjust the URL if needed
+#client = weaviate.Client("http://localhost:8080")  # Adjust the URL if needed
+client = weaviate.Client("http://weaviate:8080")  # Use the service name defined in docker-compose
 
 # Initialize Sentence Transformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -91,4 +92,4 @@ def ingest_data(csv_file):
             print(f"Failed to insert game: {game_data['gameName']}. Error: {e}")
 
 if __name__ == "__main__":
-    ingest_data("../data/game-dataset.csv")  # Ensure the CSV file is in the correct path
+    ingest_data("data/game-dataset.csv")  # Ensure the CSV file is in the correct path
