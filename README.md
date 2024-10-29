@@ -29,7 +29,7 @@ Are you ready to embark on an exciting journey to discover the perfect game? Gam
 -  🌐 [Day 11: Game4Every1 in Streamlit Cloud](#day-11-game4every1-in-streamlit-cloud)
 - [🛠️ Troubleshooting](#troubleshooting)
 - [🙌 Acknowledgment](#acknowledgment)
-- [📜 License](#license)
+
 
 
 ---
@@ -100,7 +100,7 @@ To achieve this, we provide comprehensive information about each game through th
 
 ---
 
-## [📅 Day 2: RAG FlowThe Secret Sauce Behind Game4Every1](./evaluation-criteria/evaluation-criteria/2-RAG-flow/RAG-flow.md)
+## [📅 Day 2: RAG FlowThe Secret Sauce Behind Game4Every1](./evaluation-criteria/2-RAG-flow/RAG-flow.md)
 
 
 
