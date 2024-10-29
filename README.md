@@ -8,15 +8,15 @@ Are you ready to embark on an exciting journey to discover the perfect game? Gam
 ---
 
 ## [🛤️ Development Journey](#development-journey)
-  - [📅 Day 1: Problem Description](../evaluation-criteria/1-problem-description/problem-description.md)
-  - [📅 Day 2: Unlocking the Power of RAG](../evaluation-criteria/2-RAG-flow/RAG-flow.md)
+  - [📅 Day 1: Problem Description](./evaluation-criteria/1-problem-description/problem-description.md)
+  - [📅 Day 2: Unlocking the Power of RAG](./evaluation-criteria/2-RAG-flow/RAG-flow.md)
 
-  - [📅 Day 3: Retrieval Evaluation](../evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
+  - [📅 Day 3: Retrieval Evaluation](./evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
   - [📅 Day 4: RAG Evaluation of GPT-4o and GPT-4o-Mini](../evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
-  - [📅 Day 5: Create User Interface](../evaluation-criteria/5-interface/interface.md)
-  - [📅 Day 6: Automated Data Ingestion with Python](../evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
-  - [📅 Day 7: Best Practices](../evaluation-criteria/7-best-practices/best-practices.md)
-  - [📅 Day 8: Monitoring in the Games Instructor Assistant](../evaluation-criteria/)
+  - [📅 Day 5: Create User Interface](./evaluation-criteria/5-interface/interface.md)
+  - [📅 Day 6: Automated Data Ingestion with Python](./evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
+  - [📅 Day 7: Best Practices](./evaluation-criteria/7-best-practices/best-practices.md)
+  - [📅 Day 8: Monitoring in the Games Instructor Assistant](./evaluation-criteria/8-monitoring/monitoring.md)
 
 
 ## 🌟 Implementation Guide
@@ -52,7 +52,7 @@ Our adventure begins with an exciting introduction to the project, which aims to
 
 ---
 
-## 📅 [Day 1: Problem Description](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/1-problem-description/problem-description.md)
+## 📅 [Day 1: Problem Description](./evaluation-criteria/1-problem-description/problem-description.md)
 
 
 
@@ -96,11 +96,11 @@ To achieve this, we provide comprehensive information about each game through th
 | `educationalBenefits`    | The potential learning outcomes or educational advantages gained from playing the game.      |
 |`category`              | The broader classification or genre to which the game belongs (e.g., board game, card game).|
 
-🔗 [Read Full Problem Description](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/1-problem-description/problem-description.md)
+🔗 [Read Full Problem Description](./evaluation-criteria/1-problem-description/problem-description.md)
 
 ---
 
-## [📅 Day 2: RAG FlowThe Secret Sauce Behind Game4Every1](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/2-RAG-flow/RAG-flow.md)
+## [📅 Day 2: RAG FlowThe Secret Sauce Behind Game4Every1](./evaluation-criteria/evaluation-criteria/2-RAG-flow/RAG-flow.md)
 
 
 
@@ -130,11 +130,11 @@ To **enhance recommendation accuracy** by leveraging advanced data retrieval and
 | **Indexing**         | Optimizes data access for quick retrieval.       |
 | **RAG Process**      | Seamlessly integrates retrieval and generation. |
 
-🔗 [Dive Deeper into RAG Flow](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/2-RAG-flow/RAG-flow.md)
+🔗 [Dive Deeper into RAG Flow](./evaluation-criteria/2-RAG-flow/RAG-flow.md)
 
 ---
 
-## [📅 Day 3 Retrieval Evaluation: Finding the Best Game Match!](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
+## [📅 Day 3 Retrieval Evaluation: Finding the Best Game Match!](./evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
 
 
 On Day 3, we focused on evaluating our retrieval methods to guarantee that you receive the most relevant game suggestions.
@@ -158,11 +158,11 @@ We compared **MinSearch** and **Weaviate** to see which one delivers better resu
 
 ![alt text](image-10.png)
 
-🔗 [Explore Retrieval Evaluation](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
+🔗 [Explore Retrieval Evaluation](./evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
 
 ---
 
- ## [📅 Day 4 RAG Evaluation: Picking the Best Approach!](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
+ ## [📅 Day 4 RAG Evaluation: Picking the Best Approach!](./evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
 
 Day 4 was dedicated to refining our **RAG Flow** by testing different configurations and selecting the best-performing approach.
 
@@ -184,11 +184,11 @@ GPT-4o achieved a relevance rate of 58%, slightly surpassing GPT-4o-Mini, which 
 
 We integrated the best-performing RAG approach, ensuring that our recommendations are always top-notch.
 
-🔗 [Learn More about RAG Evaluation](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
+🔗 [Learn More about RAG Evaluation](./evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
 
 ---
 
-## [📅 Day 5 User Interface: Streamlit Magic!](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/5-interface/interface.md)
+## [📅 Day 5 User Interface: Streamlit Magic!](./evaluation-criteria/5-interface/interface.md)
 
 Day 5 was all about building our **Streamlit**-powered user interface, designed to make your interaction with **Game4Every1** smooth and enjoyable.
 
@@ -225,11 +225,11 @@ Creating an intuitive UI involved understanding user behavior and designing for 
 
 We’re all set to build an engaging app that makes game searching fun and easy for everyone. Let’s keep going!
 
-🔗 [Check Out the Interface](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/5-interface/interface.md)
+🔗 [Check Out the Interface](./evaluation-criteria/5-interface/interface.md)
 
 ---
 
-## [📅 Day 6 🚀 Automated Data Ingestion: Keeping It Fresh!](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
+## [📅 Day 6 🚀 Automated Data Ingestion: Keeping It Fresh!](./evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
 
 On Day 6, we tackled the crucial task of **Automated Data Ingestion** to ensure our game database remains current and comprehensive.
 
@@ -255,11 +255,11 @@ There are only two powerful scripts at the heart of our data pipeline: `define_s
 
 Our automated ingestion process guarantees that our game database is always up-to-date, enhancing the accuracy and relevance of our recommendations.
 
-🔗 [Learn More about Data Ingestion](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
+🔗 [Learn More about Data Ingestion](./evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
 
 ---
 
-## [📅 Day 7: Best Practices – Optimizing Game4Every1](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/7-best-practices/best-practices.md) 
+## [📅 Day 7: Best Practices – Optimizing Game4Every1](./evaluation-criteria/7-best-practices/best-practices.md) 
 
 Today, we dived into the exciting world of **Hybrid Search** and **Document Reranking**! With our game data structured and ready, we enhanced our search capabilities to help users find the perfect games faster.
 
@@ -282,12 +282,12 @@ With a rank size of 10, we achieved a **Hit Rate@10** of **97.15%** and an **MRR
 
 By implementing best practices, **Game4Every1** ensures a high-quality, reliable, and user-friendly platform. This dedication guarantees that users receive optimal gaming recommendations tailored to their specific preferences.
 
-🔗 [Discover Best Practices](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/7-best-practices/best-practices.md)
+🔗 [Discover Best Practices](./evaluation-criteria/7-best-practices/best-practices.md)
 
 ---
 
 
-## [📅 Day 8: Monitoring: Keeping Track of the Fun!](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/8-monitoring/monitoring.md)
+## [📅 Day 8: Monitoring: Keeping Track of the Fun!](./evaluation-criteria/8-monitoring/monitoring.md)
 
 On Day 8, we focused on **Monitoring** to maintain and improve the user experience by tracking engagement,gathering feedback, and analyzing queries to enhance the **Game Instructor Assistant**.
 
@@ -347,7 +347,7 @@ Our **Streamlit**-powered dashboard visualizes key metrics to help us make infor
 
 
 
-🔗 [Learn More about Monitoring](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/8-monitoring/monitoring.md)
+🔗 [Learn More about Monitoring](./evaluation-criteria/8-monitoring/monitoring.md)
 
 
 
