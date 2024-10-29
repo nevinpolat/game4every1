@@ -1,5 +1,5 @@
 
-# Automated Data Ingestion with Python
+# Day 6: Automated Data Ingestion with Python
 
 Who needs a complicated orchestration tool when you can create a seamless ingestion pipeline with just two simple Python scripts? In this document, we'll walk you through the exciting process of automating data ingestion for a game dataset using Python. Our goal is to keep your dataset fresh and up-to-date without the hassle of manual intervention. Let’s dive in!
 

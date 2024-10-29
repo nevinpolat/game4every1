@@ -12,7 +12,7 @@ Are you ready to embark on an exciting journey to discover the perfect game? Gam
   - [📅 Day 2: Unlocking the Power of RAG](./evaluation-criteria/2-RAG-flow/RAG-flow.md)
 
   - [📅 Day 3: Retrieval Evaluation](./evaluation-criteria/3-retrieval-evaluation/retrieval-evaluation.md)
-  - [📅 Day 4: RAG Evaluation of GPT-4o and GPT-4o-Mini](../evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
+  - [📅 Day 4: RAG Evaluation of GPT-4o and GPT-4o-Mini](./evaluation-criteria/4-RAG-evaluation/RAG-evaluation.md)
   - [📅 Day 5: Create User Interface](./evaluation-criteria/5-interface/interface.md)
   - [📅 Day 6: Automated Data Ingestion with Python](./evaluation-criteria/6-ingestion-pipeline/ingestion-pipeline.md)
   - [📅 Day 7: Best Practices](./evaluation-criteria/7-best-practices/best-practices.md)
