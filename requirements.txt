@@ -1,0 +1,10 @@
+streamlit==1.38.0                  # For building the web app
+pandas==2.2.3                       # For data manipulation
+weaviate-client>=3.26.7,<4.0.0      # Weaviate v3 client for Python
+sentence-transformers==3.1.1        # For text embeddings
+sqlalchemy==2.0.35                  # ORM for database interactions
+psycopg2-binary==2.9.9              # PostgreSQL adapter for Python
+openai==1.47.1                      # OpenAI API client
+plotly==5.24.1                      # Add this line for Plotly
+torch==2.4.1                        #add this for sentence transformers
+python-dotenv==1.0.1
