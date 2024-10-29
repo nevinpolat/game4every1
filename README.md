@@ -691,7 +691,7 @@ docker run -d \
 ### 1. Install PostgreSQL
 
 - **Download and Install PostgreSQL**: [Download PostgreSQL](https://www.postgresql.org/download/) for your operating system and follow the installation instructions.
-- For detailed guidance, refer to the [PostgreSQL Guide](https://github.com/nevinpolat/game-instructor/blob/main/evaluation-criteria/5-interface/PostgreSQL_Setup_Guide.md).
+- For detailed guidance, refer to the [PostgreSQL Guide](./evaluation-criteria/5-interface/PostgreSQL_Setup_Guide.md).
 
 
 ### 2. Create the Database
