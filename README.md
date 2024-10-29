@@ -691,6 +691,7 @@ docker run -d \
 ### 1. Install PostgreSQL
 
 - **Download and Install PostgreSQL**: [Download PostgreSQL](https://www.postgresql.org/download/) for your operating system and follow the installation instructions.
+
 - For detailed guidance, refer to the [PostgreSQL Guide](./evaluation-criteria/5-interface/PostgreSQL_Setup_Guide.md).
 
 
