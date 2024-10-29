@@ -25,7 +25,7 @@ The Interactive Games Instructor Assistant is a comprehensive tool designed to h
 
 7. [Best Practices](evaluation-criteria/7-best-practices/best-practices.md): Discover the techniques that ensure our application is not only powerful but also intuitive and user-friendly, making it accessible to a broad audience.
 
-8. [Monitoring User feedback](evaluation-criteria/8-monitoring/monitoring.md) is collected and there's a dashboard with at least 5 charts.
+8. [Monitoring User feedback](evaluation-criteria/) is collected and there's a dashboard with at least 5 charts.
 
 9. [Containerization](https://github.com/nevinpolat/game4every1?tab=readme-ov-file#day-9-docker-integration-smooth-sailing-with-docker-compose) For the main application, a Dockerfile is provided to build a standalone Docker image, ensuring a consistent and isolated environment. Additionally, we utilize Docker Compose for managing application dependencies, simplifying the setup and deployment process by defining and running multi-container Docker applications. 
 
